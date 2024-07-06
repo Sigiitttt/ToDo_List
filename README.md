@@ -43,7 +43,7 @@ Ini adalah aplikasi Daftar Tugas berbasis web yang dibuat dengan HTML, CSS, dan 
 ## Instalasi
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/sigitttt/dToDo_List.git
+   git clone https://github.com/sigitttt/ToDo_List.git
    
 2. Buka file index.html di browser Anda.
 
