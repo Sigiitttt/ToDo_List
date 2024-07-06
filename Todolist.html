@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Tugas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="todo-container">
+        <h1>Daftar Tugas</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Masukkan tugas Anda..." required>
+            <input type="date" id="due-date">
+            <select id="priority">
+                <option value="low">Rendah</option>
+                <option value="medium">Sedang</option>
+                <option value="high">Tinggi</option>
+            </select>
+            <button type="submit">Tambah Tugas</button>
+        </form>
+        <div class="filters">
+            <button onclick="filterTodos('all')">Semua</button>
+            <button onclick="filterTodos('completed')">Selesai</button>
+            <button onclick="filterTodos('incomplete')">Belum Selesai</button>
+            <button onclick="clearAll()">Hapus Semua</button>
+        </div>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
