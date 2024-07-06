@@ -44,6 +44,8 @@ Ini adalah aplikasi Daftar Tugas berbasis web yang dibuat dengan HTML, CSS, dan 
 1. Clone repositori ini:
    ```bash
    git clone https://github.com/sigitttt/dToDo_List.git
+   
+2. Buka file index.html di browser Anda.
 
 ## Kontribusi
 Kontribusi sangat dihargai! Silakan buat pull request untuk fitur baru, perbaikan bug, atau peningkatan lainnya.
